@@ -1,13 +1,4 @@
-/**
-* Template Name: Sailor - v2.1.0
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -45,13 +36,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #5846f9;
+  background: #021F34;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #7b27d8;
+  background:#267987;
   color: #fff;
 }
 /*--------------------------------------------------------------
@@ -64,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background: #267987;
   padding: 12px 0;
 }
 
@@ -118,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffff;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
@@ -184,11 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #5846f9;
 }
 
-.nav-menu .drop-down > a:after {
-  content: "\ea99";
-  font-family: IcoFont;
-  padding-left: 5px;
-}
+
 
 .nav-menu .drop-down .drop-down ul {
   top: 0;
@@ -581,19 +568,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h2 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
 
-.about .content h3 {
-  font-weight: 500;
-  line-height: 32px;
-  font-size: 24px;
-}
 
 .about .content ul {
   list-style: none;
@@ -613,38 +588,12 @@ section {
   color: #d9232d;
 }
 
-.about .content p:last-child {
+.about  p {
   margin-bottom: 0;
+  font-size: 20px;
 }
 
-/*--------------------------------------------------------------
-# Clients
---------------------------------------------------------------*/
-.clients {
-  padding: 15px 0;
-  text-align: center;
-}
 
-.clients img {
-  max-width: 45%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
-}
-
-.clients img:hover {
-  -webkit-filter: none;
-  filter: none;
-  transform: scale(1.15);
-}
-
-@media (max-width: 768px) {
-  .clients img {
-    max-width: 40%;
-  }
-}
 
 /*--------------------------------------------------------------
 # Services
@@ -653,24 +602,23 @@ section {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
+   margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
-.services .icon-box i {
-  float: left;
-  color: #d9232d;
-  font-size: 40px;
-}
 
 .services .icon-box h4 {
-  margin-left: 70px;
+    ;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
 .services .icon-box h4 a {
+  text-align: center;
   color: #556270;
-  transition: 0.3s;
+  transition: 0.3s;    
 }
 
 .services .icon-box p {
@@ -865,37 +813,7 @@ section {
   font-size: 14px;
 }
 
-.team .member .social {
-  margin-top: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 
-.team .member .social a {
-  transition: ease-in-out 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  width: 32px;
-  height: 32px;
-  background: #8795a4;
-}
-
-.team .member .social a i {
-  color: #fff;
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-.team .member .social a:hover {
-  background: #d9232d;
-}
-
-.team .member .social a + a {
-  margin-left: 8px;
-}
 
 /*--------------------------------------------------------------
 # Our Skills
